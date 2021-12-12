@@ -13,6 +13,7 @@ const OderDetails = () => {
             <th scope='col'>Description</th>
             <th scope='col'>From Time</th>
             <th scope='col'>To Time</th>
+            <th scope='col'>Assigned To</th>
           </tr>
         </thead>
         <tbody>
@@ -21,66 +22,66 @@ const OderDetails = () => {
             <td>Siddanth</td>
             <td>India</td>
             <td>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus,
-              aut.
+            <textarea style={{height:"20px"}} class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>             
             </td>
             <td>10:30 A.M</td>
             <td>5:30 P.M</td>
+            <td>Siddanth</td>
           </tr>
           <tr>
             <th scope='row'>12/6/21</th>
             <td>Siddanth</td>
             <td>India</td>
             <td>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus,
-              aut.
+            <textarea style={{height:"20px"}} class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>             
             </td>
             <td>10:30 A.M</td>
             <td>5:30 P.M</td>
+            <td>Siddanth</td>
           </tr>
           <tr>
             <th scope='row'>12/6/21</th>
             <td>Siddanth</td>
             <td>India</td>
             <td>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus,
-              aut.
+            <textarea style={{height:"20px"}} class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>             
             </td>
             <td>10:30 A.M</td>
             <td>5:30 P.M</td>
+            <td>Siddanth</td>
           </tr>
           <tr>
             <th scope='row'>12/6/21</th>
             <td>Siddanth</td>
             <td>India</td>
             <td>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus,
-              aut.
+            <textarea style={{height:"20px"}} class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>             
             </td>
             <td>10:30 A.M</td>
             <td>5:30 P.M</td>
+            <td>Siddanth</td>
           </tr>
           <tr>
             <th scope='row'>12/6/21</th>
             <td>Siddanth</td>
             <td>India</td>
             <td>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus,
-              aut.
+            <textarea style={{height:"20px"}} class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>             
             </td>
             <td>10:30 A.M</td>
             <td>5:30 P.M</td>
+            <td>Siddanth</td>
           </tr>
           <tr>
             <th scope='row'>12/6/21</th>
             <td>Siddanth</td>
             <td>India</td>
             <td>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus,
-              aut.
+            <textarea style={{height:"20px"}} class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>             
             </td>
             <td>10:30 A.M</td>
             <td>5:30 P.M</td>
+            <td>Siddanth</td>
           </tr>
         </tbody>
       </table>

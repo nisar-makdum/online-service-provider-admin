@@ -49,7 +49,7 @@ const Navbar = () => {
                 <FontAwesomeIcon className='fa-rotate-90' icon={faSlash} />
               </span>
             </li>
-            <li class='nav-item'>
+            <li onClick={() => history.push("/register")} class='nav-item'>
               <a class='nav-link text-light fs-4' href='#'>
                 Registered Janitor
               </a>
@@ -63,7 +63,7 @@ const Navbar = () => {
                 <FontAwesomeIcon className='fa-rotate-90' icon={faSlash} />
               </span>
             </li>
-            <li class='nav-item'>
+            <li onClick={() => history.push("/support")} class='nav-item'>
               <a class='nav-link text-light fs-4' href='#'>
                 Service Support
               </a>
