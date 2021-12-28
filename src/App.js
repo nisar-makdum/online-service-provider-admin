@@ -4,6 +4,7 @@ import './App.css';
 import Homepage from './Components/Home/Homepage/Homepage';
 import RegisteredJanitor from './Components/RegisteredJanitor/RegisteredJanitor';
 import ServiceSupport from './Components/ServiceSupport/ServiceSupport';
+import Transaction from './Components/Transaction/Transaction';
 function App() {
   return (
     <Router>
@@ -12,10 +13,13 @@ function App() {
           <Homepage />
         </Route>
         <Route path='/support'>
-          <ServiceSupport/>
+          <ServiceSupport />
         </Route>
         <Route path='/register'>
-          <RegisteredJanitor/>
+          <RegisteredJanitor />
+        </Route>
+        <Route path='/transaction'>
+          <Transaction />
         </Route>
         <Route exact path='/'>
           <Homepage />
