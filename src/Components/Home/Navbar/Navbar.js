@@ -11,6 +11,7 @@ const Navbar = () => {
     <nav class='navbar navbar-dark navbar-expand-lg nav-Bg text-light fixed-top p-0'>
       <div class='container-fluid mx-md-5 mx-0'>
         <div className='d-flex justify-content-center align-items-center'>
+          {/* if you click on image it will take you to Homepage */}
           <img
             onClick={() => history.push('/home')}
             src={logo}
@@ -32,6 +33,7 @@ const Navbar = () => {
         <div class='collapse navbar-collapse' id='navbarNav'>
           <ul class='navbar-nav ms-auto '>
             <li class='nav-item '>
+              {/* if you click on Transaction it will take you to Transaction Page */}
               <a
                 onClick={() => history.push('/transaction')}
                 class='nav-link active text-light fs-4'
@@ -50,6 +52,8 @@ const Navbar = () => {
                 <FontAwesomeIcon className='fa-rotate-90' icon={faSlash} />
               </span>
             </li>
+
+            {/* if you click on  Registered Janitor it will take you to janitor Register Page */}
             <li onClick={() => history.push('/register')} class='nav-item'>
               <a class='nav-link text-light fs-4' href='#'>
                 Registered Janitor
@@ -64,6 +68,8 @@ const Navbar = () => {
                 <FontAwesomeIcon className='fa-rotate-90' icon={faSlash} />
               </span>
             </li>
+
+            {/* if you click on   Service Support it will take you to customer order details Page */}
             <li onClick={() => history.push('/support')} class='nav-item'>
               <a class='nav-link text-light fs-4' href='#'>
                 Service Support
