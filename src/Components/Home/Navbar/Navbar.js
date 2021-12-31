@@ -72,7 +72,7 @@ const Navbar = () => {
             {/* if you click on   Service Support it will take you to customer order details Page */}
             <li onClick={() => history.push('/support')} class='nav-item'>
               <a class='nav-link text-light fs-4' href='#'>
-                Service Support
+                Service Report
               </a>
             </li>
           </ul>

@@ -17,12 +17,14 @@ const ServiceSupport = () => {
               <th scope='col'>Description</th>
               <th scope='col'>Hours Worked</th>
               <th scope='col'>Transaction</th>
-              <th scope='col'>Employee Feed Back</th>
+              <th scope='col'>Employee Feedback</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th scope='row'>12/6/21</th>
+              <th contentEditable='true' scope='row'>
+                12/6/21
+              </th>
               <td>
                 <textarea
                   style={{ height: '20px' }}
@@ -36,7 +38,7 @@ const ServiceSupport = () => {
                 <span className='px-3'> To </span>{' '}
                 <input type='time' className='px-3' />
               </td>
-              <td>1200</td>
+              <td contentEditable='true'>1200</td>
               <td>
                 <textarea
                   style={{ height: '20px' }}
@@ -47,7 +49,9 @@ const ServiceSupport = () => {
               </td>
             </tr>
             <tr>
-              <th scope='row'>12/6/21</th>
+              <th contentEditable='true' scope='row'>
+                12/6/21
+              </th>
               <td>
                 <textarea
                   style={{ height: '20px' }}
@@ -61,7 +65,7 @@ const ServiceSupport = () => {
                 <span className='px-3'> To </span>{' '}
                 <input type='time' className='px-3' />
               </td>
-              <td>1200</td>
+              <td contentEditable='true'>1200</td>
               <td>
                 <textarea
                   style={{ height: '20px' }}
@@ -72,7 +76,9 @@ const ServiceSupport = () => {
               </td>
             </tr>
             <tr>
-              <th scope='row'>12/6/21</th>
+              <th contentEditable='true' scope='row'>
+                12/6/21
+              </th>
               <td>
                 <textarea
                   style={{ height: '20px' }}
@@ -86,7 +92,7 @@ const ServiceSupport = () => {
                 <span className='px-3'> To </span>{' '}
                 <input type='time' className='px-3' />
               </td>
-              <td>1200</td>
+              <td contentEditable='true'>1200</td>
               <td>
                 <textarea
                   style={{ height: '20px' }}
@@ -97,7 +103,9 @@ const ServiceSupport = () => {
               </td>
             </tr>
             <tr>
-              <th scope='row'>12/6/21</th>
+              <th contentEditable='true' scope='row'>
+                12/6/21
+              </th>
               <td>
                 <textarea
                   style={{ height: '20px' }}
@@ -111,7 +119,7 @@ const ServiceSupport = () => {
                 <span className='px-3'> To </span>{' '}
                 <input type='time' className='px-3' />
               </td>
-              <td>1200</td>
+              <td contentEditable='true'>1200</td>
               <td>
                 <textarea
                   style={{ height: '20px' }}
@@ -122,7 +130,9 @@ const ServiceSupport = () => {
               </td>
             </tr>
             <tr>
-              <th scope='row'>12/6/21</th>
+              <th contentEditable='true' scope='row'>
+                12/6/21
+              </th>
               <td>
                 <textarea
                   style={{ height: '20px' }}
@@ -136,7 +146,7 @@ const ServiceSupport = () => {
                 <span className='px-3'> To </span>{' '}
                 <input type='time' className='px-3' />
               </td>
-              <td>1200</td>
+              <td contentEditable='true'>1200</td>
               <td>
                 <textarea
                   style={{ height: '20px' }}
@@ -147,7 +157,9 @@ const ServiceSupport = () => {
               </td>
             </tr>
             <tr>
-              <th scope='row'>12/6/21</th>
+              <th contentEditable='true' scope='row'>
+                12/6/21
+              </th>
               <td>
                 <textarea
                   style={{ height: '20px' }}
@@ -161,7 +173,7 @@ const ServiceSupport = () => {
                 <span className='px-3'> To </span>{' '}
                 <input type='time' className='px-3' />
               </td>
-              <td>1200</td>
+              <td contentEditable='true'>1200</td>
               <td>
                 <textarea
                   style={{ height: '20px' }}
